@@ -1,0 +1,20 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "5.7.*"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "member_eventlib\\": "./../eventlib/src",
+      "member_eventlib\\tests\\": "./../eventlib/tests",
+      "member_eventclient\\": "./src",
+      "member_eventclient\\tests\\": "./tests",
+      "Pimple\\": "./../eventlib/vendor/pimple/pimple/src/Pimple"
+    }
+  }
+}

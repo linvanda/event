@@ -1,0 +1,20 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "5.7.*"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "member_eventconsumer\\": "./src",
+      "member_eventconsumer\\tests\\": "./tests",
+      "member_eventlib\\": "./../../../../common/mSDK/event/eventlib/src",
+      "member_eventlib\\tests\\": "./../../../../common/mSDK/event/eventlib/tests",
+      "Pimple\\": "./../../../../common/mSDK/event/eventlib/vendor/pimple/pimple/src/Pimple"
+    }
+  }
+}

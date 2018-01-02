@@ -1,0 +1,7 @@
+vendor/*
+!vendor/pimple
+
+.idea
+.idea/*
+*.iml
+*.xml
