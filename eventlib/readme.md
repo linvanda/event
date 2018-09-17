@@ -18,5 +18,3 @@
 ### 单元测试：
 1. 执行`composer install`安装phpunit依赖
 2. 执行单测（先进入项目根目录）：`vendor/bin/phpunit -c phpunit.xml`
-
-#### 关于事件系统详情，请[点击查看](https://git.mysoft.com.cn/cloudserver/mSDK/blob/master/event/readme.md)
